@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+svg {
+  border: 1px solid #ccc;
+}
+
+.tooltip {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the main container on the page */
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+}
